@@ -28,3 +28,13 @@ SEO NOTES
 
 FILES
 index.html, article.css, blog/*/index.html, about.html, contact.html, privacy.html, feed.xml, robots.txt, scripts/generate_seo.py, assets/, pdfs/.
+
+
+MOBILE FIX + CONTENT DASHBOARD UPDATE
+- Logo copied to root as techai-vibes-logo.png to simplify upload from mobile GitHub.
+- Homepage image references updated to root logo.
+- Mobile overflow/overlapping layout CSS safeguards added.
+- admin.html is a local browser content planner for blog ideas and PDF resource ideas.
+- IMPORTANT: admin.html uses localStorage and is not password-protected, does not sync across devices, and does not publish changes to the live site. Do not treat it as a secure production admin dashboard.
+- Live site URL: https://techaivibes.github.io/
+- Upload every file and folder in this folder to the ROOT of the GitHub repository.
